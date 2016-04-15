@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <style name="OverridedActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+
+        <item name="android:background">#3aa6fa</item>
+
+        <item name="android:contentDescription">"Change Menu logo for simplicity"</item>
+    </style>
+</resources>
